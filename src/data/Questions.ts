@@ -9,12 +9,12 @@ type QuestionType = {
 
 export const Questions: QuestionType[] = [
   {
-    prompt: "What is my name?",
-    optionA: "John",
-    optionB: "Jake",
-    optionC: "Gus",
-    optionD: "Pedro",
-    asnwer: "optionD",
+    prompt: "Who is the creator of JavaScript?",
+    optionA: "Bill Gates",
+    optionB: "Tim Berners-Lee",
+    optionC: "Brendan Eich",
+    optionD: "Richard Stallman",
+    asnwer: "optionC",
   },
   {
     prompt: "Which of this is not a programming language?",
@@ -31,5 +31,13 @@ export const Questions: QuestionType[] = [
     optionC: "Vue",
     optionD: "Java",
     asnwer: "optionD",
+  },
+  {
+    prompt: "What company created React?",
+    optionA: "Google",
+    optionB: "Facebook",
+    optionC: "Oracle",
+    optionD: "IBM",
+    asnwer: "optionB",
   },
 ];

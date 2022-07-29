@@ -1,9 +1,8 @@
-import { useState } from 'react';
 import MainMenu from "./components/MainMenu";
 import Quiz from "./components/Quiz";
 import EndScreen from "./components/EndScreen";
-import './App.css';
 import { useQuizContext } from "./context/QuizContext";
+import './App.css';
 
 
 function App() {
@@ -14,7 +13,7 @@ function App() {
       <h1>Quiz App</h1>
       {gameState === "menu" && <MainMenu />}
       {gameState === "playing" && <Quiz />}
-      {gameState === "endScreen" && <EndScreen />}
+      {gameState === "finished" && <EndScreen />}
     </div>
   );
 }
